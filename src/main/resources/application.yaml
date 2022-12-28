@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:tests
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+
+test:
+  foo:

@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS test;
+
+CREATE TABLE IF NOT EXISTS test
+(
+    id          BIGINT PRIMARY KEY AUTO_INCREMENT,
+    client_id   BIGINT       NOT NULL,
+    schedule_id VARCHAR(255) NOT NULL
+);
